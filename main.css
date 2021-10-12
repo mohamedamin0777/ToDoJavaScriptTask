@@ -1,0 +1,36 @@
+body{
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+}
+.card{
+    background-color: #333;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.btn{
+    padding: 0%;
+}
+.check{
+    background-color: gray;
+    text-decoration: line-through;
+}
+h1{
+    font-size: 50px;
+    margin: 20px;
+}
+h2{
+    font-size: 40px;
+}
+@media (max-width:720px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
